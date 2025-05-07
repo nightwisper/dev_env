@@ -6,6 +6,7 @@
 #sudo pacman -S --noconfirm --needed wl-clipboard
 #sudo pacman -S --noconfirm --needed lazygit
 #sudo pacman -S --noconfirm --needed man
+#sudo pacman -S --noconfirm --needed pavucontrol
 
 #sudo chsh -s $(which zsh)
 #chsh -s $(which zsh)
