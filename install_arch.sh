@@ -8,6 +8,8 @@
 #sudo pacman -S --noconfirm --needed man
 #sudo pacman -S --noconfirm --needed pavucontrol
 #sudo pacman -S --noconfirm --needed neovim
+#sudo pacman -S --noconfirm --needed ripgrep
+#sudo pacman -S --noconfirm --needed fzf
 
 #sudo chsh -s $(which zsh)
 #chsh -s $(which zsh)
@@ -40,9 +42,18 @@ then
 	paru -S wezterm-git
 fi
 
+# install zen browser
 if ! command -v zen-browser 2>&1 >/dev/null
 then
 	paru -S zen-browser-bin
+fi
+
+# install NVM and NodeJS
+if ! command -v node 2>&1 >/dev/null
+then
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+    echo "Restart your shell, then run \"nvm install lts\" and \"nvm use lts\""
 fi
 
 cp -r ./config/* $XDG_CONFIG_HOME
