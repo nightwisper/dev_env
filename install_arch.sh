@@ -1,13 +1,14 @@
 #!/bin/sh
 
-sudo pacman -S --noconfirm --needed git
-sudo pacman -S --noconfirm --needed zsh
-sudo pacman -S --noconfirm --needed nerd-fonts
-sudo pacman -S --noconfirm --needed wl-clipboard
-sudo pacman -S --noconfirm --needed lazygit
+#sudo pacman -S --noconfirm --needed git
+#sudo pacman -S --noconfirm --needed zsh
+#sudo pacman -S --noconfirm --needed nerd-fonts
+#sudo pacman -S --noconfirm --needed wl-clipboard
+#sudo pacman -S --noconfirm --needed lazygit
+#sudo pacman -S --noconfirm --needed man
 
-sudo chsh -s $(which zsh)
-chsh -s $(which zsh)
+#sudo chsh -s $(which zsh)
+#chsh -s $(which zsh)
 
 if ! test -d $ZSH
 then
@@ -42,3 +43,4 @@ then
 	paru -S zen-browser-bin
 fi
 
+cp -r ./config/* $XDG_CONFIG_HOME
