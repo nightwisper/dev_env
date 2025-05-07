@@ -7,6 +7,7 @@
 #sudo pacman -S --noconfirm --needed lazygit
 #sudo pacman -S --noconfirm --needed man
 #sudo pacman -S --noconfirm --needed pavucontrol
+#sudo pacman -S --noconfirm --needed neovim
 
 #sudo chsh -s $(which zsh)
 #chsh -s $(which zsh)
