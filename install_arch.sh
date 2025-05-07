@@ -11,7 +11,7 @@
 #sudo pacman -S --noconfirm --needed ripgrep
 #sudo pacman -S --noconfirm --needed fzf
 #sudo pacman -S --noconfirm --needed rofi-wayland
-sudo pacman -S --noconfirm --needed lua51 luarocks
+# sudo pacman -S --noconfirm --needed lua51 luarocks
 
 #sudo chsh -s $(which zsh)
 #chsh -s $(which zsh)

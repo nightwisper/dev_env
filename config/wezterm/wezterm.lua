@@ -6,7 +6,7 @@ config.font = wezterm.font("MesloLGS Nerd Font", {weight="Regular", stretch="Nor
 config.font_size = 19
 config.enable_wayland = true
 config.enable_tab_bar = false
-config.window_decorations = "RESIZE"
+config.window_decorations = "NONE"
 config.window_background_opacity = 0.95
 
 return config
