@@ -1,0 +1,4 @@
+- [ ] customize login screen
+- [ ] lock screen
+- [ ] customize grub
+- [ ] get some games rolling
