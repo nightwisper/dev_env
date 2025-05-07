@@ -11,6 +11,7 @@
 #sudo pacman -S --noconfirm --needed ripgrep
 #sudo pacman -S --noconfirm --needed fzf
 #sudo pacman -S --noconfirm --needed rofi-wayland
+sudo pacman -S --noconfirm --needed lua51 luarocks
 
 #sudo chsh -s $(which zsh)
 #chsh -s $(which zsh)
@@ -55,6 +56,12 @@ then
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
     echo "Restart your shell, then run \"nvm install lts\" and \"nvm use lts\""
+fi
+
+# install waybar
+if ! command -v waybar 2>&1 >/dev/null
+then
+    paru -S waybar
 fi
 
 cp -r ./config/* $XDG_CONFIG_HOME
