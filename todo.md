@@ -1,3 +1,5 @@
+# Todos
+
 - [ ] customize login screen
 - [ ] lock screen
 - [ ] customize grub
