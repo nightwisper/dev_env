@@ -13,6 +13,7 @@
 # sudo pacman -S --noconfirm --needed rofi-wayland
 # sudo pacman -S --noconfirm --needed lua51 luarocks
 # sudo pacman -S hyprpaper
+# sudo pacman -S hyprlock
 #
 # sudo chsh -s $(which zsh)
 # chsh -s $(which zsh)
