@@ -14,6 +14,7 @@
 # sudo pacman -S --noconfirm --needed lua51 luarocks
 # sudo pacman -S hyprpaper
 # sudo pacman -S hyprlock
+# sudo pacman -S tmux
 #
 # sudo chsh -s $(which zsh)
 # chsh -s $(which zsh)
@@ -26,6 +27,11 @@ fi
 if ! test -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 then
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+fi
+
+if ! test -d "$HOME/.tmux/plugins/tpm"
+then
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 # install paru
 
