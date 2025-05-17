@@ -74,3 +74,5 @@ then
 fi
 
 cp -r ./config/* $XDG_CONFIG_HOME
+
+chmod +x $HOME/.config/scripts/*.sh
