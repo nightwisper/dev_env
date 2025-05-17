@@ -4,17 +4,18 @@
 # sudo pacman -S --noconfirm --needed zsh
 # sudo pacman -S --noconfirm --needed nerd-fonts
 # sudo pacman -S --noconfirm --needed wl-clipboard
-# sudo pacman -S --noconfirm --needed lazygit
 # sudo pacman -S --noconfirm --needed man
 # sudo pacman -S --noconfirm --needed pavucontrol
+# sudo pacman -S --noconfirm --needed lazygit
+# sudo pacman -S --noconfirm --needed tig
 # sudo pacman -S --noconfirm --needed neovim
 # sudo pacman -S --noconfirm --needed ripgrep
 # sudo pacman -S --noconfirm --needed fzf
 # sudo pacman -S --noconfirm --needed rofi-wayland
 # sudo pacman -S --noconfirm --needed lua51 luarocks
-# sudo pacman -S hyprpaper
-# sudo pacman -S hyprlock
-# sudo pacman -S tmux
+# sudo pacman -S --noconfirm --needed hyprpaper
+# sudo pacman -S --noconfirm --needed hyprlock
+# sudo pacman -S --noconfirm --needed tmux
 #
 # sudo chsh -s $(which zsh)
 # chsh -s $(which zsh)
