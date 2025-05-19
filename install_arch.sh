@@ -73,6 +73,17 @@ then
     paru -S waybar
 fi
 
+# screenshot capabilities
+if ! command -v slurp 2>&1 >/dev/null
+then
+    paru -S slurp-git
+fi
+
+if ! command -v grim 2>&1 >/dev/null
+then
+    paru -S grim-git
+fi
+
 cp -r ./config/* $XDG_CONFIG_HOME
 
 chmod +x $HOME/.config/scripts/*.sh
